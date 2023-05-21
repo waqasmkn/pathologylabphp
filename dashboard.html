@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pathology Lab Dashboard</title>
+    <style>
+        body {
+            background-color: white; /* Change background color to white */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            text-align: center;
+            margin-top: 100px;
+        }
+        
+        .container h1 {
+            color: red; /* Add red color to the heading */
+        }
+        
+        .container ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .container li {
+            margin-bottom: 10px;
+        }
+        
+        .container li a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: red;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        
+        .container li a:hover {
+            background-color: #c70000; /* Change the background color on hover */
+        }
+        
+        footer {
+            background-color: red; /* Add red background color to the footer */
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+        
+        /* Add CSS for the header image */
+        header {
+    background-image: url("lab.jpg");
+    background-size: 1200px 200px; /* Adjust the width and height as needed */
+    background-position: center;
+    background-repeat: no-repeat; /* Prevent image repetition */
+    height: 500px;
+}
+
+
+    </style>
+</head>
+<body>
+    <header></header>
+    <div class="container">
+        <h1>Pathology Lab Dashboard</h1>
+        <table align="center">
+            <tr>
+                <td><li><a href="patient-registration.php">Patient Registration</a></li></td>
+                <td><li><a href="tests.php">Tests</a></li></td>
+                <td><li><a href="results.php">Results</a></li></td>
+                <td><li><a href="reports.php">Print Report</a></li></td>
+                <td><li><a href="invoice.php">Print Invoice</a></li></td>
+                <td><li><a href="logout.php">Logout</a></li></td>
+            </tr>
+        </table>
+    </div>
+    <footer> 
+        This is the footer. <!-- Add content to the footer -->
+    </footer>  
+</body>
+</html>
